@@ -1,0 +1,269 @@
+[
+    {
+        "company": "Samsung",
+        "founded": "1938",
+        "headquarters": "Seoul, South Korea",
+        "tech_stack": [
+            "Java",
+            "Python",
+            "C++",
+            "JavaScript",
+            "Android",
+            "iOS",
+            "Cloud Computing (AWS/Azure)",
+            "Artificial Intelligence (AI) and Machine Learning (ML)"
+        ],
+        "difficulty": "Medium/Hard",
+        "rounds": [
+            "Online Assessment",
+            "Technical Screening",
+            "Technical Interview",
+            "Managerial Round",
+            "HR Round"
+        ],
+        "topics": [
+            "Data Structures (Arrays, Linked Lists, Stacks, Queues, Trees, Graphs)",
+            "Algorithms (Sorting, Searching, Dynamic Programming, Greedy, Bit Manipulation)",
+            "System Design",
+            "Object-Oriented Programming (OOP) Concepts",
+            "Database Management Systems (DBMS)",
+            "Operating System (OS) Concepts"
+        ],
+        "tips": [
+            "Data Structures (Arrays, Linked Lists, Stacks, Queues, Trees, Graphs)",
+            "Algorithms (Sorting, Searching, Dynamic Programming, Greedy, Bit Manipulation)",
+            "System Design"
+        ]
+    },
+    {
+        "company": "LG",
+        "founded": "1958",
+        "headquarters": "Seoul, South Korea",
+        "tech_stack": [
+            "Java",
+            "Python",
+            "C++",
+            "JavaScript",
+            "MySQL",
+            " MongoDB",
+            "AWS",
+            "Azure",
+            "Google Cloud"
+        ],
+        "difficulty": "Medium",
+        "rounds": [
+            "Online Assessment",
+            "Technical Phone Screen",
+            "On-site Interview",
+            "Final Interview with Manager"
+        ],
+        "topics": [
+            "Data Structures",
+            "Algorithms",
+            "System Design",
+            "Object-Oriented Programming",
+            "Cloud Computing",
+            "Machine Learning",
+            "Database Management"
+        ],
+        "tips": [
+            "Data Structures",
+            "Algorithms",
+            "System Design"
+        ]
+    },
+    {
+        "company": "Sony",
+        "founded": "1946",
+        "headquarters": "Tokyo, Japan",
+        "tech_stack": [
+            "Java",
+            "Python",
+            "C++",
+            "JavaScript",
+            "Angular",
+            "React",
+            "Node.js",
+            "AWS",
+            "Azure",
+            "Google Cloud"
+        ],
+        "difficulty": "Hard",
+        "rounds": [
+            "Online Assessment",
+            "Technical Screening",
+            "Technical Interview",
+            "System Design Interview",
+            "Behavioral Interview"
+        ],
+        "topics": [
+            "Data Structures",
+            "Algorithms",
+            "System Design",
+            "Object-Oriented Programming",
+            "Cloud Computing",
+            "Microservices Architecture",
+            "Database Management"
+        ],
+        "tips": [
+            "Data Structures",
+            "Algorithms",
+            "System Design"
+        ]
+    },
+    {
+        "company": "Ernst & Young (EY)",
+        "founded": "1906",
+        "headquarters": "London, United Kingdom",
+        "tech_stack": [
+            "Java",
+            "Python",
+            "C++",
+            "JavaScript",
+            "Angular",
+            "React",
+            "Node.js",
+            "AWS",
+            "Azure",
+            "Google Cloud",
+            "SQL",
+            "NoSQL",
+            "MongoDB"
+        ],
+        "difficulty": "Hard",
+        "rounds": [
+            "Online Assessment",
+            "Technical Screening",
+            "Technical Interview",
+            "System Design Interview",
+            "Behavioral Interview"
+        ],
+        "topics": [
+            "Data Structures (Arrays, Linked Lists, Stacks, Queues, Trees, Graphs)",
+            "Algorithms (Sorting, Searching, Graph Algorithms)",
+            "System Design",
+            "Object-Oriented Programming",
+            "Cloud Computing",
+            "Cybersecurity",
+            "Database Management Systems"
+        ],
+        "tips": [
+            "Data Structures (Arrays, Linked Lists, Stacks, Queues, Trees, Graphs)",
+            "Algorithms (Sorting, Searching, Graph Algorithms)",
+            "System Design"
+        ]
+    },
+    {
+        "company": "Netflix",
+        "founded": "1997",
+        "headquarters": "Los Gatos, California",
+        "tech_stack": [
+            "Java",
+            "Python",
+            "JavaScript",
+            "React",
+            "Node.js",
+            "AWS",
+            "Kafka",
+            "Apache Cassandra",
+            "Apache Spark",
+            "Apache HBase"
+        ],
+        "difficulty": "Hard",
+        "rounds": [
+            "Phone Screening",
+            "Technical Screening",
+            "On-site Interview",
+            "Final Interview"
+        ],
+        "topics": [
+            "System Design",
+            "Scalability",
+            "Microservices Architecture",
+            "Distributed Systems",
+            "Cloud Computing",
+            "Data Structures and Algorithms",
+            "Object-Oriented Programming",
+            "Database Systems",
+            "Networking Fundamentals"
+        ],
+        "tips": [
+            "System Design",
+            "Scalability",
+            "Microservices Architecture"
+        ]
+    },
+    {
+        "company": "Bosch",
+        "founded": "1886",
+        "headquarters": "Gerlingen, Germany",
+        "tech_stack": [
+            "Java",
+            "Python",
+            "C++",
+            "Cloud Computing (AWS, Azure, Google Cloud)",
+            "Artificial Intelligence (AI) and Machine Learning (ML)",
+            "Internet of Things (IoT)",
+            "Data Analytics",
+            "Cybersecurity"
+        ],
+        "difficulty": "Medium",
+        "rounds": [
+            "Online Assessment",
+            "Technical Screening",
+            "Technical Interview",
+            "Managerial Round",
+            "HR Round"
+        ],
+        "topics": [
+            "Data Structures (Arrays, Linked Lists, Stacks, Queues, Trees, Graphs)",
+            "Algorithms (Sorting, Searching, Graph Algorithms)",
+            "Object-Oriented Programming (OOP) Concepts",
+            "System Design",
+            "Scalability and Performance Optimization",
+            "Database Management Systems (DBMS)"
+        ],
+        "tips": [
+            "Data Structures (Arrays, Linked Lists, Stacks, Queues, Trees, Graphs)",
+            "Algorithms (Sorting, Searching, Graph Algorithms)",
+            "Object-Oriented Programming (OOP) Concepts"
+        ]
+    },
+    {
+        "company": "Amazon",
+        "founded": "1994",
+        "headquarters": "Seattle, Washington",
+        "tech_stack": [
+            "Java",
+            "C++",
+            "Python",
+            "JavaScript",
+            "AWS",
+            "DynamoDB",
+            "S3",
+            "EC2",
+            "RDS"
+        ],
+        "difficulty": "Hard",
+        "rounds": [
+            "Online Assessment",
+            "Phone Screening",
+            "On-site Interview",
+            "Final Interview"
+        ],
+        "topics": [
+            "Data Structures",
+            "Algorithms",
+            "Object-Oriented Programming",
+            "System Design",
+            "Cloud Computing",
+            "Database Systems",
+            "Operating Systems"
+        ],
+        "tips": [
+            "Data Structures",
+            "Algorithms",
+            "Object-Oriented Programming"
+        ]
+    }
+]

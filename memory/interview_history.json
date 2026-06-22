@@ -1,0 +1,254 @@
+[
+    {
+        "company": "Amazon",
+        "role": "SDE-2",
+        "question": "Research Completed",
+        "score": 0
+    },
+    {
+        "company": "zomato",
+        "role": "intern",
+        "question": "Research Completed",
+        "score": 0
+    },
+    {
+        "company": "Microsoft",
+        "role": "Research",
+        "question": "Research Completed",
+        "score": 0,
+        "profile": {
+            "difficulty": "Hard",
+            "rounds": [
+                "Initial Screening",
+                "Technical Phone Screen",
+                "On-site Interview",
+                "Final Interview with Team Lead/Manager"
+            ],
+            "topics": [
+                "Data Structures (arrays, linked lists, stacks, queues, trees, graphs)",
+                "Algorithms (sorting, searching, graph traversal)",
+                "Object-Oriented Programming (OOP) concepts",
+                "System Design",
+                "Scalability",
+                "Cloud Computing",
+                "Operating Systems"
+            ]
+        }
+    },
+    {
+        "company": "microsoft",
+        "role": "sde",
+        "question": "Research Completed",
+        "score": 0
+    },
+    {
+        "company": "Apple",
+        "role": "Research",
+        "question": "Research Completed",
+        "score": 0,
+        "profile": {
+            "difficulty": "Hard",
+            "rounds": [
+                "Initial Screening",
+                "Technical Phone Screen",
+                "On-site Interview",
+                "Final Interview with Team Lead"
+            ],
+            "topics": [
+                "Data Structures",
+                "Algorithms",
+                "System Design",
+                "Object-Oriented Programming",
+                "Mobile App Development",
+                "Cloud Computing",
+                "Network Security"
+            ]
+        }
+    },
+    {
+        "company": "apple",
+        "role": "designing",
+        "question": "Research Completed",
+        "score": 0
+    },
+    {
+        "company": "apple",
+        "role": "designing",
+        "question": "Research Completed",
+        "score": 0
+    },
+    {
+        "company": "microsoft",
+        "role": "sde",
+        "question": "Research Completed",
+        "score": 0
+    },
+    {
+        "company": "microsoft",
+        "role": "SDE-2",
+        "question": "Research Completed",
+        "score": 0
+    },
+    {
+        "company": "IBM",
+        "role": "Research",
+        "question": "Research Completed",
+        "score": 0,
+        "profile": {
+            "difficulty": "Medium",
+            "rounds": [
+                "Online Assessment",
+                "Technical Screening",
+                "Technical Interview",
+                "Managerial Interview",
+                "HR Interview"
+            ],
+            "topics": [
+                "Data Structures (Arrays, Linked Lists, Stacks, Queues, Trees, Graphs)",
+                "Algorithms (Sorting, Searching, Dynamic Programming)",
+                "Object-Oriented Programming (OOP) Concepts",
+                "System Design",
+                "Database Management Systems",
+                "Operating Systems"
+            ]
+        }
+    },
+    {
+        "company": "ibm",
+        "role": "SDE-2",
+        "question": "Research Completed",
+        "score": 0
+    },
+    {
+        "company": "apple",
+        "role": "designing",
+        "question": "Research Completed",
+        "score": 0
+    },
+    {
+        "company": "SAMSUNG",
+        "role": "SDE-2",
+        "question": "Research Completed",
+        "score": 0
+    },
+    {
+        "company": "lg",
+        "role": "SDE-2",
+        "question": "Research Completed",
+        "score": 0
+    },
+    {
+        "company": "ssamsung",
+        "role": "sde-2",
+        "question": "Research Completed",
+        "score": 0
+    },
+    {
+        "company": "lg",
+        "role": "sde-2",
+        "question": "Research Completed",
+        "score": 0
+    },
+    {
+        "company": "samsung",
+        "role": "SDE-2",
+        "question": "Research Completed",
+        "score": 0
+    },
+    {
+        "company": "lg",
+        "role": "SDE-2",
+        "question": "Research Completed",
+        "score": 0
+    },
+    {
+        "company": "samsung",
+        "role": "SDE-2",
+        "question": "Research Completed",
+        "score": 0
+    },
+    {
+        "company": "lg",
+        "role": "SDE-2",
+        "question": "Research Completed",
+        "score": 0
+    },
+    {
+        "company": "samsung",
+        "role": "SDE-2",
+        "question": "Research Completed",
+        "score": 0
+    },
+    {
+        "company": "lg",
+        "role": "SDE-2",
+        "question": "Research Completed",
+        "score": 0
+    },
+    {
+        "company": "sony",
+        "role": "SDE-2",
+        "question": "Research Completed",
+        "score": 0
+    },
+    {
+        "company": "sony",
+        "role": "SDE-2",
+        "question": "Design an algorithm to find the maximum sum of a subarray within a given array of integers, with a time complexity of O(n) and space complexity of O(1).",
+        "score": 9
+    },
+    {
+        "company": "samsung",
+        "role": "SDE-2",
+        "question": "Research Completed",
+        "score": 0
+    },
+    {
+        "company": "lg",
+        "role": "SDE-2",
+        "question": "Research Completed",
+        "score": 0
+    },
+    {
+        "company": "ey",
+        "role": "SDE-2",
+        "question": "Research Completed",
+        "score": 0
+    },
+    {
+        "company": "netflix",
+        "role": "SDE-2",
+        "question": "Research Completed",
+        "score": 0
+    },
+    {
+        "company": "bosch",
+        "role": "SDE-2",
+        "question": "Research Completed",
+        "score": 0
+    },
+    {
+        "company": "samsung",
+        "role": "SDE-2",
+        "question": "Research Completed",
+        "score": 0
+    },
+    {
+        "company": "Test",
+        "role": "SDE",
+        "question": "Question",
+        "score": 8
+    },
+    {
+        "company": "Test",
+        "role": "SDE",
+        "question": "Question",
+        "score": 8
+    },
+    {
+        "company": "Amazon",
+        "role": "SDE-2",
+        "question": "Research Completed",
+        "score": 0
+    }
+]

@@ -1,0 +1,11 @@
+streamlit
+pydantic
+groq
+tavily-python
+python-dotenv
+tenacity
+langsmith
+langchain
+langchain-groq
+pytest
+pytest-mock
