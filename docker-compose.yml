@@ -1,0 +1,21 @@
+services:
+  chromadb:
+    image: chromadb/chroma:latest
+    container_name: chromadb
+    ports:
+      - "8000:8000"
+    volumes:
+      - chroma_data:/chroma/chroma
+
+  app:
+    build: .
+    container_name: placement-prep-agent
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    depends_on:
+      - chromadb
+
+volumes:
+  chroma_data:
