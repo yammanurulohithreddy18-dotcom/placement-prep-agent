@@ -8,15 +8,37 @@ from utils.history import (
     get_company_profile
 )
 
+from utils.usage_tracker import (
+    check_token_limit,
+    get_tokens_used,
+    get_remaining_tokens,
+    get_cost
+)
+
 
 def show_research():
 
     st.title("Research a Company")
 
+    # Usage Dashboard
+    st.sidebar.markdown("## 📊 Usage Dashboard")
+    st.sidebar.write(f"Tokens Used Today: {get_tokens_used()}")
+    st.sidebar.write(f"Remaining Tokens: {get_remaining_tokens()}")
+    st.sidebar.write(f"Estimated Cost: ${get_cost()}")
+    st.sidebar.write("Daily Limit: 1000 Tokens")
+
     company = st.text_input("Company Name")
     role = st.text_input("Role")
 
     if st.button("Research"):
+
+        estimated_tokens = 500
+
+        if not check_token_limit(estimated_tokens):
+            st.error(
+                "🚫 Token limit reached. Daily limit is 1000 tokens. Please try again tomorrow."
+            )
+            st.stop()
 
         existing_profile = get_company_profile(company)
 
