@@ -10,3 +10,4 @@ langchain-groq
 pytest
 pytest-mock
 chromadb
+sentry-sdk
