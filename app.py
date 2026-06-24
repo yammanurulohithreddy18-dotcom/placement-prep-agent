@@ -13,9 +13,6 @@ sentry_sdk.init(
     traces_sample_rate=1.0,
 )
 sentry_sdk.capture_message("Sentry is connected")
-
-1 / 0
-sentry_sdk.capture_message("Sentry is connected")
 st.set_page_config(
     page_title="Placement Prep Agent",
     layout="wide"
