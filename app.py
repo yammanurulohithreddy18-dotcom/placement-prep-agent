@@ -11,6 +11,7 @@ sentry_sdk.init(
     dsn=os.getenv("SENTRY_DSN"),
     send_default_pii=True,
 )
+1 / 0
 st.set_page_config(
     page_title="Placement Prep Agent",
     layout="wide"
