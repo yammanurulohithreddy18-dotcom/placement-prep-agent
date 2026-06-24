@@ -1,4 +1,5 @@
 import streamlit as st
+from functools import lru_cache
 
 from workflow import company_workflow, feedback_workflow
 
@@ -14,6 +15,11 @@ from utils.usage_tracker import (
     get_remaining_tokens,
     get_cost
 )
+
+
+@st.cache_data
+def cached_company_lookup(company):
+    return get_company_profile(company)
 
 
 def show_research():
@@ -32,6 +38,30 @@ def show_research():
 
     if st.button("Research"):
 
+        cache_key = f"{company}_{role}"
+
+        # ==========================
+        # LEVEL 1 CACHE (SESSION)
+        # ==========================
+        if (
+            "research_cache" in st.session_state
+            and cache_key in st.session_state["research_cache"]
+        ):
+
+            st.success("⚡ Loaded from Session Cache")
+
+            cached = st.session_state["research_cache"][cache_key]
+
+            st.session_state["company"] = company
+            st.session_state["role"] = role
+            st.session_state["profile"] = cached["profile"]
+            st.session_state["questions"] = cached["questions"]
+
+            st.rerun()
+
+        # ==========================
+        # TOKEN LIMIT CHECK
+        # ==========================
         estimated_tokens = 500
 
         if not check_token_limit(estimated_tokens):
@@ -40,22 +70,37 @@ def show_research():
             )
             st.stop()
 
-        existing_profile = get_company_profile(company)
+        # ==========================
+        # LEVEL 2 CACHE (DATABASE)
+        # ==========================
+        existing_profile = cached_company_lookup(company)
 
         if existing_profile:
-            st.info("⚡ Loaded from Company Cache")
+            st.success("⚡ Loaded from Database Cache")
 
+        # Run workflow
         result = company_workflow(company, role)
 
         profile = result["profile"]
         questions = result["questions"]
 
+        # Save company only if not cached already
+        if not existing_profile:
+            save_company_profile(profile)
+
+        # Save to Session Cache
+        if "research_cache" not in st.session_state:
+            st.session_state["research_cache"] = {}
+
+        st.session_state["research_cache"][cache_key] = {
+            "profile": profile,
+            "questions": questions
+        }
+
         st.session_state["company"] = company
         st.session_state["role"] = role
         st.session_state["profile"] = profile
         st.session_state["questions"] = questions
-
-        save_company_profile(profile)
 
         save_attempt(
             company,
